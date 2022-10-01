@@ -16,7 +16,7 @@ st.markdown(""" <style> .font {
 font-size:50px ; font-family: 'Cooper Black'; color: #FF9633; text-align: center;} 
 </style> """, unsafe_allow_html = True)
 st.markdown(""" <style> .font1 {
-font-size:30px ; font-family: 'Cooper Black'; color: #FF9633;} 
+font-size:30px ; font-family: 'Cooper Black'; color: #FF9633; text-align: justify} 
 </style> """, unsafe_allow_html = True)
 
 st.balloons()
