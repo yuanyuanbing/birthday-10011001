@@ -18,7 +18,7 @@ font-size:25px ; font-family: 'Cooper Black'; color: #FF9633;}
 
 st.markdown('<p class = "font1"> Welcome to Part_2.</p> \
 			<p class = "font1">This part includes 2 MCQs and 3 Multi - select Questions.</p>\
-			<p class = "font1">Rules in Part_1 also applies here ! 🙂</p>', unsafe_allow_html = True)
+			<p class = "font1">Rules in Part_1 also applies here !! 🙂</p>', unsafe_allow_html = True)
 
 with st.form(key = 'form1'):
 	st.markdown('<p class = "font"> 1. Guess which month in summer (northern hemisphere seasons) is Bingbing\'s birthday in. </p>', unsafe_allow_html = True)
@@ -86,9 +86,9 @@ if travel:
 	st.success('Yes! She went to Wuhan alone in the autumn of 2018, and in the beginging of 2019, the first Covid case was found there.\
 			It was quite a lonely journey, but there were still some moments that she enjoyed.', icon = '🐾')
 if pass_out:
-	st.success('Yes. She has passed out completely 3 times during her undergraduate years, which freaked her parents out.\
-			So she has a plan here, if she has to pass out again, she plans to call you first, then she can carry on this faint thing.\
-				But she doesn\'t think this would happen again ! ', icon = '🙄')
+	st.success('Yes. She has passed out 3 times during her undergraduate years, which freaked her parents out.\
+			She has a plan here, if she has to pass out again, she plans to call you before carrying on this whole faint thing :neutral_face:.\
+				Don\'t forget to pick up, otherwise she can\'t move on to next step ! ', icon = '🙄')
 if married:
 	st.error('No way ! Error ! False !', icon = '❌')
 
@@ -119,4 +119,4 @@ if anything:
 
 if anything and (poem or travel or pass_out) and (angel or toxic or candy) and day =='National day' and bir == 'June':
 	st.balloons()
-	st.markdown('<p class = "font1">Congratulations! You passed the exam, now you can contact Bingbing to get your present !</p>', unsafe_allow_html = True)
+	st.markdown('<p class = "font1">Congratulations! You passed! Contact Bingbing to get your present !</p>', unsafe_allow_html = True)

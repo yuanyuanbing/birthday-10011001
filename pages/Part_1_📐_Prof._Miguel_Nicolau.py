@@ -102,4 +102,4 @@ with st.form(key = 'form5'):
 
 if phd == 'A YES as large as the galaxy' and assis == 'all of them' and KNN == 'k Nearest Neighbours' and decimal == '9' and code == 'MIS41110':
 	st.balloons( )
-	st.markdown('<p class = "font1">Good job, professor! Now please go to Part_2 !<p>', unsafe_allow_html = True)
+	st.markdown('<p class = "font1">Good job, professor! Please go to Part_2 !<p>', unsafe_allow_html = True)
