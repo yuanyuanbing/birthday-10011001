@@ -55,7 +55,7 @@ with st.form(key = 'form2'):
 				  \'Happy Birthday\' from far eastern Asia on every Oct.1st.', icon = '😉')
 			
 
-st.markdown('<p class = "font"> 3. Use THREE song titles from UT to decribe Bingbing. </p>', unsafe_allow_html = True)
+st.markdown('<p class = "font"> 3. Use THREE most suitable song titles from UT to decribe Bingbing. </p>', unsafe_allow_html = True)
 st.write('\n')
 st.write('\n')
 angel = st.checkbox('Angel(s)')
@@ -121,6 +121,6 @@ if anything:
 	st.success(' Nothing much. This option is soooooooo right !!!', icon = '💯')
 	
 
-if anything and ((poem or travel or pass_out) and (not married)) and (angel and toxic and candy) and day =='National day' and bir == 'June':
+if anything and ((poem or travel or pass_out) and (not married)) and ((angel and toxic and candy) and (not complicated)) and day =='National day' and bir == 'June':
 	st.balloons()
 	st.markdown('<p class = "font2">Congratulations! You passed ! Contact Bingbing to get your present !</p>', unsafe_allow_html = True)
