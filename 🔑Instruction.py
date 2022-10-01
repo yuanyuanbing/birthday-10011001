@@ -9,7 +9,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title = "Birthday Gift Exam 2022",
-    page_icon = "📋 "
+    page_icon = "🎊"
 )
 
 st.markdown(""" <style> .font {
