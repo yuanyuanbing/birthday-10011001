@@ -7,6 +7,11 @@ Created on Sun Sep 25 00:26:56 2022
 
 import streamlit as st
 
+st.set_page_config(
+    page_title = "Birthday Gift Exam 2022",
+    page_icon = "📋 "
+)
+
 st.markdown(""" <style> .font {
 font-size:50px ; font-family: 'Cooper Black'; color: #FF9633; text-align: center;} 
 </style> """, unsafe_allow_html = True)
