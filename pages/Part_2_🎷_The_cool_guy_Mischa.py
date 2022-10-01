@@ -24,7 +24,7 @@ st.markdown('<p class = "font1"> Welcome to Part_2.</p> \
 			<p class = "font1">This part includes 2 MCQs and 3 Multi - select Questions.</p>\
 			<p class = "font1">Rules in Part_1 also applies here !! 🙂</p>\
 			<p>✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨</p>\
-			<p class = "font1">You will pass when balloon rise up again 🎈</p>', unsafe_allow_html = True)
+			<p class = "font1">You will pass when balloons raise up again. 🎈</p>', unsafe_allow_html = True)
 
 with st.form(key = 'form1'):
 	st.markdown('<p class = "font"> 1. Guess which month of summer (northern hemisphere seasons) is Bingbing\'s birthday in. </p>', unsafe_allow_html = True)
