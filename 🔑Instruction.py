@@ -26,7 +26,7 @@ st.markdown('<p class = "font">Birthday Gift Examination</p><p class="font"> Bir
 st.write(':birthday: ' * 28)
 st.markdown('<p class = "font1">Instruction: </p><p class="font1">To get a gift,\
 			you need to answer 5 questions for each part in the left.</p>\
-			<p class = "font1">You will only successfully pass if you see balloons when finishing each part.</p> \
+			<p class = "font1">You will only successfully pass the exam if you see balloons when finishing each part.</p> \
 			<p class = "font1">You perhaps have forever to complete the exam, but if that is the case, \
 			the exam designer will cry very loudly.</p >', unsafe_allow_html= True)
 st.write(':birthday: ' * 28)
