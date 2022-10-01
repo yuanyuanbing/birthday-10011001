@@ -7,7 +7,7 @@ Created on Mon Sep 26 11:30:35 2022
 
 import streamlit as st
 
-st.set_page_config(page_title="02. Part 2 ", page_icon="🎷")
+st.set_page_config(page_title = "02. Part 2 ", page_icon = "🎷")
 
 st.markdown(""" <style> .font {
 font-size:25px ; font-family: 'Cooper Black'; color: #30318A;} 
@@ -32,9 +32,9 @@ with st.form(key = 'form1'):
 	submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if bir == 'December':
-			st.error('Give you one more chance.', icon = '❌')
+			st.error(' Give you one more chance.', icon = '❌')
 		elif bir == 'Thirteember':
-			st.error('OK...... One more chance......', icon = '❌')
+			st.error(' OK...... One more chance......', icon = '❌')
 		else:
 			st.success('Correct!', icon="😎")
 			
@@ -46,13 +46,13 @@ with st.form(key = 'form2'):
 	submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if day == 'A normal day':
-			st.warning('The day has nothing different from other days, but it\'s still has a special meaning.', icon = '😊')
+			st.warning(' The day has nothing different from other days, but it\'s still has a special meaning.', icon = '😊')
 		elif day == 'National day':
-			st.success('Correct! Normally citizens will have a 7-days holiday.', icon = '😁')
+			st.success(' Correct! Normally citizens will have a 7-days holiday.', icon = '😁')
 		else:
-			st.warning('Don\'t worry...... If I go back, \
+			st.warning(' Don\'t worry...... If I go back, \
 			  I promise that you will receive one more \
-				  \'Happy Birthday\' from far eastern Asia  on every Oct.1st.', icon = '😉')
+				  \'Happy Birthday\' from far eastern Asia on every Oct.1st.', icon = '😉')
 			
 
 st.markdown('<p class = "font"> 3. Use THREE song titles from UT to decribe Bingbing. </p>', unsafe_allow_html = True)
@@ -65,13 +65,13 @@ complicated = st.checkbox('Complicated')
 st.write('\n')
 
 if angel:
-	st.success('Glad to see you got to choose one of the correct answers !', icon = '😇')
+	st.success(' Glad to see you got to choose one of the correct answers !', icon = '😇')
 if toxic:
-	st.success('Correct. Because the person in the question is just as cute as sexy as charming as etc.......', icon = '🔥')
+	st.success(' Correct. Because the person in the question is just as cute as sexy as charming as etc.......', icon = '🔥')
 if candy:
-	st.success('Review: the person in the question can be really SWEET.', icon = '🍬')
+	st.success(' Review: the person in the question can be really SWEET.', icon = '🍬')
 if complicated:
-	st.warning('Hmmmmm, this topic is subject to be furtherly investigated.' , icon = '👀')
+	st.warning(' Hmmmmm, this topic is subject to be furtherly investigated.' , icon = '👀')
 
 
 st.markdown('<p class = "font"> 4. Guess which ones of the following are Bingbing has done/ experienced before ?</p>', unsafe_allow_html = True)
@@ -92,7 +92,7 @@ if travel:
 if pass_out:
 	st.success('She has passed out 3 times during her undergraduate years.\
 			Well, if she has to pass out again (slight possibility), what she plans is to call you before carrying on that whole faint thing :neutral_face:.\
-				So don\'t forget to pick up, or else she can\'t move on to next step ! ', icon = '🙄')
+				So don\'t forget to pick up, or else she can\'t move to the next step ! ', icon = '🙄')
 if married:
 	st.error('Noo ! No way ! Error ! False !', icon = '❌')
 
@@ -108,17 +108,17 @@ anything = st.checkbox('anything that Bingbing gives')
 st.write('\n')
 
 if keyboard:
-	st.success('Good choice, not until I buy myself one hahahaha. I envy your iMac very much btw !', icon = '😑')
+	st.success(' Good choice! not until I buy myself one hahahaha. I envy your iMac very much btw !!', icon = '⌨')
 if perfume:
-	st.success('I don\'t think you like these things, but I do have a veeery tiiiny sample from the store, \
+	st.success(' I don\'t think you like these things, but I do have a veeery tiiiny sample from the store, \
 			they somehow just sent me a parfum for men...... Even if you are not into them, I still think that \
 			suits you, because its name is \'SAUVAGE ELIXIR\'.', icon = '🎭')
 if ukulele:
-	st.success('I also wanna see what does an ukulele with three heads look like. If it really exists, please inform \
+	st.success(' I also wanna see what does an ukulele with three heads look like. If it really exists, please inform \
 			me...... and I will consider making it a gift. If it\'s too expensive, I would thoroughly do some\
 				stealing plans and carry out them......', icon = '🎶')
 if anything:
-	st.success('Nothing much. This option is soooooooo right !!!', icon = '💯')
+	st.success(' Nothing much. This option is soooooooo right !!!', icon = '💯')
 	
 
 if anything and ((poem or travel or pass_out) and (not married)) and (angel and toxic and candy) and day =='National day' and bir == 'June':

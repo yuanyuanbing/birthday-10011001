@@ -39,7 +39,7 @@ with st.form(key = 'form1'):
 	submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if code == 'MIS41110':
-			st.success('You remember ! What a relief !', icon = "✔")
+			st.success('You remember !  What a relief......', icon = "✔")
 		elif code == 'MIS1001':
 			st.error('You only remember your birthday......', icon = '😭' )
 		else:
@@ -53,9 +53,9 @@ with st.form(key = 'form2'):
 	submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if decimal == '9':
-			st.success('Professor, you can not be more intelligent !', icon = "👏")
+			st.success(' Professor, you can not be more intelligent !', icon = "👏")
 		else:
-			st.error('I know, it\'s complicated, take your time.', icon = '❌')
+			st.error(' I know, it\'s complicated, take your time.', icon = '❌')
 		
 with st.form(key = 'form3'):
 	st.markdown('<p class = "font"> 3. What is the full name of KNN ?</p>', unsafe_allow_html = True)
@@ -67,7 +67,7 @@ with st.form(key = 'form3'):
 		if KNN == 'k Nearest Neighbours':
 			st.success('Whose professor is this knowledgeable ? :heart_eyes: Oh, mine. ', icon = "✔")
 		else:
-			st.error('How about getting something to eat !', icon = '❌')
+			st.error(' Perhaps you need to get something to eat !', icon = '❌')
 			
 
 with st.form(key = 'form4'):
@@ -85,13 +85,13 @@ with st.form(key = 'form4'):
 	submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if assis == 'all of them':
-			st.success('True. But how comes you have so many assistants ??', icon = "😒")
+			st.success(' True! But how comes you have so many assistants ???', icon = "🤩")
 		elif assis == 'A':
-			st.warning('Indeed, you have a sweet one, but still, choose one more time !', icon = '🎀')
+			st.warning(' Indeed, you have a sweet one, but still, choose one more time !', icon = '🎀')
 		elif assis == 'B':
-			st.warning('I think you do have an elegant one, but not the right answer !', icon = '🤨')
+			st.warning(' I think you do have an elegant one, but not the right answer !', icon = '🤨')
 		elif assis == 'C':
-			st.warning('I can\'t believe you have a vampire as an assistant ......', icon = '😱')
+			st.warning(' I can\'t believe you have a vampire as an assistant ......', icon = '😱')
 
 with st.form(key = 'form5'):
 	st.markdown('<p class = "font"> 5. Does she have a chance to pursue a PHD with you ?</p>\
@@ -102,11 +102,11 @@ with st.form(key = 'form5'):
 	submit = submit = st.form_submit_button(label = 'Submit')
 	if submit:
 		if phd == 'No':
-			st.error('Dangerous option ! Choose another right away !', icon = '❗' )
+			st.error(' Dangerous option ! Choose another right away !', icon = '❗' )
 		elif phd == 'YES':
-			st.warning('Neither (NOT False) nor (NOT True). Choose again !', icon = '⚠')
+			st.warning(' Neither (NOT False) nor (NOT True). Choose again !', icon = '⚠')
 		else:
-			st.success('While True: (indentation) print(\'he\')', icon = '👻')
+			st.success(' While True: (indentation) print(\'he\')', icon = '👻')
 
 if phd == 'A YES as large as the galaxy' and assis == 'all of them' and KNN == 'k Nearest Neighbours' and decimal == '9' and code == 'MIS41110':
 	st.balloons( )
