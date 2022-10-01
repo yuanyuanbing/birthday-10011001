@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 		
-st.set_page_config(page_title="01. Part 1 ", page_icon="📐")
+st.set_page_config(page_title = "01. Part 1 ", page_icon = "📖")
 image1 = Image.open('1.jpg')
 image2 = Image.open('2.jpg')
 image3 = Image.open('3.jpg')
